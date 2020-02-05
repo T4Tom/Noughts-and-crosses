@@ -91,7 +91,6 @@ def game_loop():
       if event.type == pygame.MOUSEBUTTONDOWN:
 
         if pygame.mouse.get_pos()[0] < 200 and pygame.mouse.get_pos()[1] < 200 and occupied1 == False:
-          print("Top left")
           occupied1 = True
           player1 = not player1
           if noughts == True:
@@ -99,7 +98,6 @@ def game_loop():
           elif noughts == False:
             cross1 = True
         if pygame.mouse.get_pos()[0] < 400 and pygame.mouse.get_pos()[0] > 200 and pygame.mouse.get_pos()[1] < 200 and occupied2 == False:
-          print("Top middle")
           occupied2 = True
           player1 = not player1
           if noughts == True:
@@ -107,7 +105,6 @@ def game_loop():
           elif noughts == False:
             cross2 = True
         if pygame.mouse.get_pos()[0] > 400 and pygame.mouse.get_pos()[1] < 200 and occupied3 == False:
-          print("Top right")
           occupied3 = True
           player1 = not player1
           if noughts == True:
@@ -116,7 +113,6 @@ def game_loop():
             cross3 = True
 
         if pygame.mouse.get_pos()[0] < 200 and pygame.mouse.get_pos()[1] < 400 and pygame.mouse.get_pos()[1] > 200 and occupied4 == False:
-          print("Middle left")
           occupied4 = True
           player1 = not player1
           if noughts == True:
@@ -124,7 +120,6 @@ def game_loop():
           elif noughts == False:
             cross4 = True
         if pygame.mouse.get_pos()[0] < 400 and pygame.mouse.get_pos()[0] > 200 and pygame.mouse.get_pos()[1] < 400 and pygame.mouse.get_pos()[1] > 200 and occupied5 == False:
-          print("Middle middle")
           occupied5 = True
           player1 = not player1
           if noughts == True:
@@ -132,7 +127,6 @@ def game_loop():
           elif noughts == False:
             cross5 = True
         if pygame.mouse.get_pos()[0] > 400 and pygame.mouse.get_pos()[1] < 400 and pygame.mouse.get_pos()[1] > 200 and occupied6 == False:
-          print("Middle right")
           occupied6 = True
           player1 = not player1
           if noughts == True:
@@ -141,7 +135,6 @@ def game_loop():
             cross6 = True
 
         if pygame.mouse.get_pos()[0] < 200 and pygame.mouse.get_pos()[1] > 400 and occupied7 == False:
-          print("Bottom left")
           occupied7 = True
           player1 = not player1
           if noughts == True:
@@ -149,7 +142,6 @@ def game_loop():
           elif noughts == False:
             cross7 = True
         if pygame.mouse.get_pos()[0] < 400 and pygame.mouse.get_pos()[0] > 200 and pygame.mouse.get_pos()[1] > 400 and occupied8 == False:
-          print("Bottom middle")
           occupied8 = True
           player1 = not player1
           if noughts == True:
@@ -157,7 +149,6 @@ def game_loop():
           elif noughts == False:
             cross8 = True
         if pygame.mouse.get_pos()[0] > 400 and pygame.mouse.get_pos()[1] > 400 and occupied9 == False:
-          print("Bottom right")
           occupied9 = True
           player1 = not player1
           if noughts == True:
